@@ -5,6 +5,6 @@ A cli command to issue firebase id token from firebase custom token.
 ### Usage
 
 ```
-$ go install github.com/a-r-g-v/firebase_idtoken/cmd/token_issue@v0.0.1
+$ go install github.com/a-r-g-v/firebase_idtoken/cmd/token_issue
 $ token_issue <api_key> <custom_token>
 ```

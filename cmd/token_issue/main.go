@@ -34,7 +34,7 @@ func main() {
 	if err != nil {
 		log.Fatalf("[ERROR] VerifyCustomToken failed. err: %+v\n", err)
 	}
-	log.Print(r.IdToken)
+	fmt.Printf("idToken\t%s", r.IdToken)
 }
 
 func printUsage() {
